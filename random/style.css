@@ -1,0 +1,78 @@
+.divForFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.bigBox{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 100px;
+    border-width: 1px;
+    border-style: solid;
+
+    border-color: #212121;
+}
+.number,
+.result,
+.button{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 16px;
+    text-align: center;
+    font-family: sans-serif;
+}
+input{
+    border-style: none;
+    font-size: 28px;
+    color: #212121;
+}
+.result{
+    width: 300px;
+    height: 100px;
+
+    font-size: 64px;
+}
+.button {
+    font-size: 24px;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+    border-style: none;
+    color: #212121;
+}
+.number{
+    cursor: pointer;
+    outline: none;
+    width: 400px;
+}
+button:hover{
+    color: #212121;
+    font-size: 28px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: #212121;
+}
+.resultP{
+    width: 200px;
+    height: 200px;
+    font-family: sans-serif;
+    font-size: 100px;
+    color: white;
+    margin: 25px;
+    font-weight: 600;
+    border-radius: 100%;
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
